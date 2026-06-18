@@ -1,6 +1,6 @@
 import dayjs from 'dayjs';
 import axios from 'axios';
-import {formatMoney} from '../../utils/money'
+import {formatMoney} from '../../utils/money';
 import { DeliveryOptions } from './DeliveryOptions';
 
 export function OrderSumarry({cart, deliveryOptions, loadCart}) {

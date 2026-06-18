@@ -19,6 +19,9 @@
   width: 208px;
 }
 
+
+
+
 @media (max-width: 800px) {
   .header .left-section {
     width: unset;

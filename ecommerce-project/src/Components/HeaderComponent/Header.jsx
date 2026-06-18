@@ -14,7 +14,7 @@ export function Header({cart}) {
     <>
       <div className="header">
         <div className="left-section">
-          <Link to="/" className="header-link">
+          <Link to="/" className="">
             <img className="logo"
               src="images/logo-white.png" />
             <img className="mobile-logo"
