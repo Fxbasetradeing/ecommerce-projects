@@ -9,8 +9,9 @@ export function OrderSumarry({cart, deliveryOptions, loadCart}) {
       {deliveryOptions.length > 0 && cart.map((cartItem) => {
         const selectedDeliveryOption = deliveryOptions.find((deliveryOption) => {
           return deliveryOption.id === cartItem.deliveryOptionId;
+          
         });
-
+        console.log(deliveryOptions.length)
 
         const deleteCartItem = async()=>{
           await axios.delete(`/api/cart-items/${cartItem.productId}`);
