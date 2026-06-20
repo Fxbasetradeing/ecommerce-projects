@@ -1,4 +1,5 @@
-import {Product} from './Product';
+import React from 'react';
+import { Product } from './Product';
 
 export function ProductsGrid({products, loadCart}) {
 
