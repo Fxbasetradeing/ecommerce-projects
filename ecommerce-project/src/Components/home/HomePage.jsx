@@ -3,7 +3,7 @@ import axios from 'axios';
 import { Link } from 'react-router';
 import { Header } from '../HeaderComponent/Header';
 import { ProductsGrid } from './ProductsGrid';
-import './HomePage.css';
+import './Homepage.css';
 
 export function HomePage({cart, loadCart}) {
 
