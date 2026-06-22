@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: ecommerce-backends
+    env: node
+    plan: free
+    branch: main
+    region: oregon
+    rootDir: ecommerce-backends
+    buildCommand: npm install
+    startCommand: npm start
+    autoDeploy: true
+    healthCheckPath: /api/products
